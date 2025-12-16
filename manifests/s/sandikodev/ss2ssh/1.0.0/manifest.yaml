@@ -1,0 +1,16 @@
+# manifest.yaml
+Id: sandikodev.ss2ssh
+Name: ss2ssh
+Version: 1.0.0
+Publisher: sandikodev
+Description: Send Windows clipboard screenshots directly to a remote SSH host using PowerShell
+License: MIT
+LicenseUrl: https://github.com/sandikodev/ss2ssh/blob/main/LICENSE
+Homepage: https://sandikodev.github.io/ss2ssh/
+InstallerType: zip
+Installers:
+  - Architecture: x64
+    Url: https://github.com/sandikodev/ss2ssh/releases/download/v1.0.0/ss2ssh.zip
+    Sha256: 533C633B4D1F3523E916BF1EDC5C37846A239F6CD6F18111AEDA6D6CCFCAB36D
+    InstallerSwitches:
+      Silent: "/quiet"
